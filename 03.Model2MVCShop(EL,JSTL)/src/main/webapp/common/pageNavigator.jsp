@@ -20,6 +20,3 @@
 			<a href="javascript:fncGet${type}List('${resultPage.endUnitPage+1}')">이후 ▶</a>
 	</c:if>
 	
-	<c:if test="${ resultPage.endUnitPage < resultPage.maxPage }">
-			<a href="javascript:fncGet${type}List('${resultPage.endUnitPage+1}')">이후 ▶</a>
-	</c:if>

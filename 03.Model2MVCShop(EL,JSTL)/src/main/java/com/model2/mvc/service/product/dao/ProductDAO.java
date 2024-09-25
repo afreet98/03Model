@@ -135,7 +135,7 @@ public class ProductDAO {
 		return sql;
 	}
 	
-
+	
 	public void updateProduct(Product product) throws Exception {
 		
 		Connection con = DBUtil.getConnection();
